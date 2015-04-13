@@ -15,7 +15,7 @@ try:
 except ImportError:
     now = datetime.now
 
-from voting.managers import VoteManager
+from .managers import VoteManager
 
 
 SCORES = (
